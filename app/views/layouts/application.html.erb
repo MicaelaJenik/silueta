@@ -13,6 +13,25 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <% unless content_for? :menu %>
+
+      <div class="flex pl-10 pt-10">
+        <div>
+          <h1 class="header">Silueta</h1>
+          <div class="pt-10">
+            <h2 class="rest">Visualization</h2>
+            <h2 class="rest text-red-500">Architecture</h2>
+            <h2 class="rest">About us</h2>
+            <h2 class="rest">Contact</h2>
+          </div>
+        </div>
+        <%= yield %>
+        <div class="rest pr-10">eng · es</div>
+      </div>
+
+    <% end %>
+
+
   </body>
 </html>
