@@ -17,17 +17,28 @@
     <% unless content_for? :menu %>
 
       <div class="flex pl-10 pt-10">
-        <div>
-          <h1 class="header">Silueta</h1>
-          <div class="pt-10">
-            <h2 class="rest">Visualization</h2>
-            <h2 class="rest text-red-500">Architecture</h2>
-            <h2 class="rest">About us</h2>
-            <h2 class="rest">Contact</h2>
+
+        <div class="w-1/6 flex-none">
+
+          <div class="fixed">
+            <h1 class="header">Silueta</h1>
+            <div class="pt-10">
+              <h2 class="rest">Visualization</h2>
+              <h2 class="rest text-red-500">Architecture</h2>
+              <h2 class="rest">About us</h2>
+              <h2 class="rest">Contact</h2>
+            </div>
           </div>
         </div>
-        <%= yield %>
-        <div class="rest pr-10">eng · es</div>
+
+        <div class="w-5/6 flex">
+          <div class="w-5/6">
+            <%= yield %>
+          </div>
+          <div class="w-1/6">
+            <div class="fixed rest mx-16">eng · es</div>
+          </div>
+        </div>
       </div>
 
     <% end %>
