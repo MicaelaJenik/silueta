@@ -13,8 +13,11 @@
   </head>
 
   <body>
+    <% if content_for? :menu %>
 
-    <% unless content_for? :menu %>
+      <%= yield %>
+
+    <% else %>
 
       <div class="flex pl-10 pt-10">
 
@@ -42,7 +45,5 @@
       </div>
 
     <% end %>
-
-
   </body>
 </html>
