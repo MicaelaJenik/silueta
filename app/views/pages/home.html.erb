@@ -4,17 +4,28 @@
 
 <div class="h-screen">
 
-  <div class="flex items-end py-10">
-    <h1 class="header pl-16"> <%= link_to "Silueta", design_path %> </h1>
-    <div class="subs pl-10">
-      <h2>About us</h2>
-      <h2>Contact</h2>
+  <div class="h-1/6 justify-center">
+
+<div class="object-none object-center">
+    <%= image_tag asset_path('logo.png')%>
+</div>
+
+    <div class="flex subs justify-center">
+      <h2 class="mx-2">About us</h2>
+      <h2 class="mx-2">Contact</h2>
     </div>
+
   </div>
 
-  <div class="flex h-screen">
-    <div class="w-1/2"><%= image_tag asset_path('casa1.jpg'), style: "height: 100%;" %></div>
-    <div class="w-1/2"><%= image_tag asset_path('render.png'), style: "height: 100%;"%></div>
+  <div class="h-5/6 flex">
+
+    <div class="w-1/2 home-background-left">
+      <h1 class="header text-center mt-80">Archtecture</h1>
+    </div>
+    <div class="w-1/2 home-background-right">
+      <h1 class="header text-center mt-80">Visualization</h1>
+    </div>
+
   </div>
 
 </div>
