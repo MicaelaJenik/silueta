@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   mount ForestLiana::Engine => '/forest'
-  root to: 'pages#home'
+  root to: 'pages#welcome'
+  get 'home', to: 'pages#home'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
   get 'design', to: 'pages#design'
