@@ -21,13 +21,11 @@
     <% else %>
 
     <div class="h-1/6 flex justify-center items-center">
-      <div><%= image_tag asset_path('logo.png')%></div>
+      <div><%= link_to(image_tag("logo.png"), home_path) %></div>
     </div>
 
-      <div class="flex pt-10">
-
-          <%= yield %>
-
+      <div>
+        <%= yield %>
       </div>
 
     <% end %>
