@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'visualizations/index'
+  get 'visualizations/show'
   mount ForestLiana::Engine => '/forest'
   root to: 'pages#welcome'
   get 'home', to: 'pages#home'
