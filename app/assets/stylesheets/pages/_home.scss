@@ -3,11 +3,11 @@
   font-size: 40px;
   letter-spacing: 0.1em;
   font-family: sans-serif;
+  padding: 40% 0;
 }
 
 .subs {
   font-weight: 300;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
   font-family: sans-serif;
 }
@@ -31,25 +31,26 @@
   opacity: 0.8;
 }
 
-#bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-}
-#bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-}
+// #bg {
+//   position: fixed;
+//   top: -50%;
+//   left: -50%;
+//   width: 200%;
+//   height: 200%;
+// }
+// #bg img {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   margin: auto;
+//   min-width: 50%;
+//   min-height: 50%;
+// }
 
 .zoom:hover {
-  transform: scale(1.1); /* (150% zoom)*/
-  transition: transform .4s; /* Animation */
+  transform: scale(1.05); /* (150% zoom)*/
+  transition: transform 1.5s; /* Animation */
+  height: inherit;
 }
