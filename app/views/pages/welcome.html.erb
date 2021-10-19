@@ -2,11 +2,8 @@
   ""
 <% end %>
 
-
-
-<div id="bg">
-<!--   <%= image_tag asset_path('welcome.png')%> -->
-
-  <div class="bg"> <%= link_to(image_tag("welcome.png"), home_path) %></div>
-
-</div>
+<%= link_to home_path do %>
+  <div class="flex h-screen">
+    <div class="welcome-background flex-grow"></div>
+  </div>
+<% end %>
