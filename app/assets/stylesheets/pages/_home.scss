@@ -19,19 +19,19 @@
 }
 
 .home-background-left {
-  background-image: url(image_path('hhhh.jpg'));
+  background-image: url(image_path('arq.jpg'));
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .home-background-right {
-  background-image: url(image_path('render.png'));
+  background-image: url(image_path('viz.jpg'));
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.9;
+  position: center;
 }
 
 .zoom:hover {
   transform: scale(1.05); /* (150% zoom)*/
   transition: transform 1.5s; /* Animation */
-  height: inherit;
 }
