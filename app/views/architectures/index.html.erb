@@ -1,2 +1,105 @@
-<h1>Architectures#index</h1>
-<p>Find me in app/views/architectures/index.html.erb</p>
+<%= content_for :menu do %>
+""
+<% end %>
+
+<div class="flex">
+
+  <div>
+
+    <div class="flex subs justify-center items-center px-10">
+
+      <div class="flex-1">
+        <h2 class="mx-2 self-center"> <%= link_to 'ENG', about_path %></h2>
+      </div>
+
+      <div class="flex-shrink-0 pt-4 pb-2">
+        <h1 class="text-center text-6xl font-medium pb-2">architecture</h1>
+      </div>
+
+      <div class="flex-1">
+        <div class="flex flex-row-reverse">
+          <h2 class="mx-2 self-center"> <%= link_to 'contact', contact_path %></h2>
+          <h2 class="mx-2 self-center"> <%= link_to 'about', articles_path %></h2>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="flex pb-12">
+      <div class="w-1/2"><%= image_tag asset_path('render2.png')%></div>
+      <div class="columnns-separator-arch"></div>
+
+      <div class="w-1/2 pr-12">
+        <h1 class="text-blue-700 font-medium pt-12 mt-10 text-xl">Narbo Via, Buenos Aires, 2021</h1>
+
+        <div class="divide-y divide-black my-12">
+          <div class="py-2">
+            <h3 class="font-medium">Client</h3>
+            <h4 class="font-light">Confidential</h4>
+          </div>
+          <div class="py-2">
+            <h3 class="font-medium">Area</h3>
+            <h4 class="font-light">1150</h4>
+          </div>
+          <div class="py-2">
+            <h3 class="font-medium">Year</h3>
+            <h4 class="font-light">2021</h4>
+          </div>
+          <div class="py-2">
+            <h3 class="font-medium">Manufacturers</h3>
+            <h4 class="font-light">Doho Interiors</h4>
+          </div>
+
+          <div class="py-2">
+            <p class="mt-5">The simplicity of his architecture emphasizes the concept of sensation and physical experiences, mainly influenced by Japanese culture. The religious term Zen, focuses on the concept of simplicity and concentrates on inner feeling rather than outward appearance. Zen influences vividly show in Ando's work and became its distinguishing mark. In order to practice the idea of simplicity, Ando's architecture is mostly constructed with concrete, providing a sense of cleanliness and weightlessness (even though concrete is a heavy material) at the same time.[9] Due to the simplicity of the exterior, construction, and organization of the space are relatively potential in order to represent the aesthetic of sensation.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="text-blue-700 text-3xl mx-8 pt-12 mt-12 mb-12">
+      <h1>Contact us for high fidelity</h1>
+      <h1>visualization and architecture projects</h1>
+    </div>
+
+<div style="margin-top: auto; border-top: 1.5px solid #C0C0C0">
+  <div class="flex px-12 py-8">
+
+    <div class="flex-1">
+      <h3 class="font-medium">Silueta Group</h3>
+      <h3 class="font-medium">ⓒ All rights reserved</h3>
+    </div>
+
+    <div class="flex-shrink-0 flex">
+
+      <div class="mr-12 pr-12">
+        <h4 class="font-light">Contact</h4>
+        <h3 class="font-medium">Rocamora 4343,</h3>
+        <h3 class="font-medium">1184, Buenos Aires, Argentina</h3>
+        <div>⎻⎻⎻</div>
+        <h3 class="font-medium">+54 911 4071 7578</h3>
+        <h3 class="font-medium">hola@siluetagroup.com</h3>
+      </div>
+
+      <div class="mr-12 pr-12">
+        <h4 class="mx-4 font-light">Instagram</h4>
+        <h4 class="mx-4 font-light">Behance</h4>
+        <h4 class="mx-4 font-light">Linkedin</h4>
+        <h4 class="mx-4 font-light">Facebook</h4>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+  </div>
+
+  <div class="bg-blue-700" style="padding: 25% 0;">
+    <h1 class="px-2 text-2xl text-white"><%= link_to '→', home_path %></h1>
+  </div>
+
+</div>
