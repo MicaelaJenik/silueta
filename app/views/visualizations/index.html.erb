@@ -1,17 +1,48 @@
+<%= content_for :menu do %>
+""
+<% end %>
 
+<div class="flex">
 
-<div class="flex-wrap">
-  <div class="flex">
-    <div class="visualization-image mb-4"><%= image_tag asset_path('render2.png')%></div>
-    <div class="columnns-separator"></div>
-    <div class="visualization-image mb-4"><%= image_tag asset_path('51.jpg')%></div>
+  <div class="bg-blue-700" style="padding: 25% 0;">
+    <h1 class="px-2 text-2xl text-white"><%= link_to '←', home_path %></h1>
   </div>
 
+  <div>
+    <div class="flex subs justify-center items-center px-10">
+
+      <div class="flex-1">
+        <h2 class="mx-2 self-center"> <%= link_to 'ENG', about_path %></h2>
+      </div>
+
+      <div class="flex-shrink-0">
+        <h1 class="text-center text-6xl font-medium pb-2">visualization</h1>
+      </div>
+
+      <div class="flex-1">
+        <div class="flex flex-row-reverse">
+          <h2 class="mx-2 self-center"> <%= link_to 'contact', contact_path %></h2>
+          <h2 class="mx-2 self-center"> <%= link_to 'about', articles_path %></h2>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="flex-wrap">
+      <div class="flex">
+        <div class="visualization-image mb-4"><%= image_tag asset_path('render2.png')%></div>
+        <div class="columnns-separator"></div>
+        <div class="visualization-image mb-4"><%= image_tag asset_path('51.jpg')%></div>
+      </div>
 
 
-  <div class="flex">
-    <div class="visualization-image mb-4"><%= image_tag asset_path('48.jpg')%></div>
-    <div class="columnns-separator"></div>
-    <div class="visualization-image mb-4"><%= image_tag asset_path('render2.png')%></div>
+
+      <div class="flex">
+        <div class="visualization-image mb-4"><%= image_tag asset_path('48.jpg')%></div>
+        <div class="columnns-separator"></div>
+        <div class="visualization-image mb-4"><%= image_tag asset_path('render2.png')%></div>
+      </div>
+    </div>
   </div>
+
 </div>
