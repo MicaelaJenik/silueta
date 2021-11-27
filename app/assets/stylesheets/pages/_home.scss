@@ -3,7 +3,7 @@
   font-size: 40px;
   letter-spacing: 0.1em;
   font-family: sans-serif;
-  padding: 40% 0;
+  padding: 45% 0;
 }
 
 .subs {
@@ -34,4 +34,5 @@
 .zoom:hover {
   transform: scale(1.05); /* (150% zoom)*/
   transition: transform 1.5s; /* Animation */
+  opacity: 0.8;
 }
