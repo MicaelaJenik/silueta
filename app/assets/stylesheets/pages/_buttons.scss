@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  background-color: transparent;
+  box-shadow: 0 0 1px white;
+  border-radius: 20px;
+  &:hover {
+    box-shadow: 0 0 1px white;
+  }
+}
+
+.btn-blue {
+  background-color: transparent;
+  box-shadow: 0 0 3px black;
+  // cursor: auto;
+  border-radius: 20px;
+  border-color: white;
+  // cursor: pointer;
+  // border: solid white;
+  &:hover {
+    box-shadow: 0 0 5px blue;
+  }
+}
+
+// .btn-random {
+//   background-color: white;
+//   box-shadow: 0 0 3px;
+//   // cursor: auto;
+//   border-radius: 60px;
+//   // cursor: pointer;
+//   // background-color: transparent;
+// }
+
+// .btn-round {
+//   background-color: white;
+//   box-shadow: 0 0 1px;
+//   // cursor: auto;
+//   border-radius: 20px;
+//   // cursor: pointer;
+// }
+
+// .btn-footer {
+//   background-color: white;
+//   box-shadow: 0 0 0px;
+//   // cursor: auto;
+//   border-radius: 20px;
+//   // cursor: pointer;
+// }
+
+#down {
+  margin-top: 100%;
+}
+
+.words:hover {
+  font-weight: 500;
+}
