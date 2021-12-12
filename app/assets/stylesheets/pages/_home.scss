@@ -22,11 +22,7 @@
   background-image: url(image_path('arq.jpg'));
   background-size: cover;
   opacity: 0.9;
-    &:hover {
-    transform: scale(1.05); /* (150% zoom)*/
-    transition: transform 1.5s; /* Animation */
-    opacity: 0.8;
-  }
+  // height: 900px;
 }
 
 .home-background-right {
@@ -34,9 +30,11 @@
   background-size: cover;
   opacity: 0.9;
   position: center;
-    &:hover {
-    transform: scale(1.05); /* (150% zoom)*/
-    transition: transform 1.5s; /* Animation */
-    opacity: 0.8;
-  }
+  // height: 900px;
+}
+
+.zoom:hover {
+  transform: scale(1.03); /* (150% zoom)*/
+  transition: transform 1.5s; /* Animation */
+  opacity: 0.8;
 }

@@ -13,14 +13,14 @@ html {
 
 .btn-blue {
   background-color: transparent;
-  box-shadow: 0 0 3px black;
+  box-shadow: 0 0 1px black;
   // cursor: auto;
   border-radius: 20px;
   border-color: white;
   // cursor: pointer;
   // border: solid white;
   &:hover {
-    box-shadow: 0 0 5px blue;
+    box-shadow: 0 0 1px blue;
   }
 }
 
